@@ -27,6 +27,12 @@ Para gerar a versão de produção, uso:
 npm run build
 ```
 
+## Publicação no GitHub Pages
+
+O deploy é feito automaticamente pelo workflow em `.github/workflows/deploy.yml` a cada push na branch `main`.
+
+Na configuração do repositório, em **Settings > Pages**, selecione **GitHub Actions** como origem do deploy. Não é necessário versionar a pasta `dist/`, pois ela é gerada pelo workflow.
+
 ## Estrutura principal
 
 ```text
