@@ -1,117 +1,40 @@
-# 🌙 DevLinks – Personal Portfolio
+# Portfólio de Joice Alves
 
-A personal portfolio project inspired by Rocketseat's **DevLinks**, created to showcase my social links, projects, and learning journey as a **Junior / Intern Front-end Developer**.
+Portfólio pessoal de Joice Alves, desenvolvedora front-end e estudante de Análise e Desenvolvimento de Sistemas. A página apresenta sua trajetória, tecnologias, projeto em destaque e canais de contato em uma experiência responsiva.
 
-This project focuses on a clean, modern UI with a **Light/Dark theme toggle**, applying fundamental front-end concepts using **HTML, CSS, and JavaScript**.
+## Tecnologias
 
----
+- React
+- TypeScript
+- Vite
+- CSS
+- Lucide React
 
-## ✨ Preview
+## Como executar
 
-> Responsive project with dynamic theme switching (Light / Dark mode)
-
-### 📸 Screenshots
-
-#### Dark Mode
-
-<img width="1837" height="880" alt="{7FAC7513-16D2-4434-9E45-F549B0F2C2E0}" src="https://github.com/user-attachments/assets/3ace39ea-936f-47f7-90ec-b400525b7372" />
-
-
-#### Light Mode
-
-<img width="1836" height="877" alt="{FBB6F076-4593-4B46-91EB-CBE9D2953519}" src="https://github.com/user-attachments/assets/c57e313a-e6ca-4f7b-92cb-4aac08fc109b" />
-
-
-
-> 💡 Tip: Add your screenshots inside the `assets` folder and update the file names if needed.
-
----
-
-## 👩‍💻 Features
-
-* 🌗 Light & Dark mode toggle
-* 🎨 CSS Variables for theme and color management
-* 🖱️ Animated theme switch button
-* 📱 Responsive layout (mobile-first)
-* 🔗 Centralized links for social media and projects
-
----
-
-## 🤖 Technologies Used
-
-* **HTML5** – Semantic structure
-* **CSS3** – Styling, variables, animations, and responsiveness
-* **JavaScript (Vanilla)** – DOM manipulation and theme switching
-* **Ionicons** – Icons
-* **Git** – Version control  
-* **GitHub** – Remote repository hosting and collaboration  
-* **Figma** – UI/UX design and prototyping
-
----
-
-## 🧠 What I Learned
-
-* How to manage themes using `:root` and CSS classes (`.light`)
-* DOM manipulation with JavaScript
-* Creating an animated toggle switch using pure CSS
-* Improving layout alignment and spacing (UI/UX basics)
-* Debugging common front-end issues
-
----
-
-## 📂 Project Structure
+É necessário ter Node.js instalado.
 
 ```bash
-├── assets
-│   ├── bg-mobile.jpg
-│   ├── bg-mobile-light.jpg
-│   ├── moonstars.svg
-│   ├── sun.svg
-│   ├── preview-dark.png
-│   └── preview-light.png
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+npm install
+npm run dev
 ```
 
----
+Depois, abra a URL indicada pelo Vite no navegador.
 
-## ▶️ How to Run the Project
-
-1. Clone the repository:
+Para gerar a versão de produção:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+npm run build
 ```
 
-2. Open the `index.html` file in your browser
+## Estrutura principal
 
----
+```text
+src/
+  App.tsx       # Conteúdo e comportamento da página
+  main.tsx      # Entrada da aplicação React
+  styles.css    # Layout, temas e responsividade
+assets/         # Imagens usadas no portfólio
+```
 
-## 🎯 Why This Project Matters
-
-This project demonstrates my ability to:
-
-* Build responsive interfaces
-* Apply JavaScript to solve real UI problems
-* Organize code clearly and cleanly
-* Follow best practices for beginner/junior-level front-end projects
-
-It represents my growth as a developer and my readiness for **Junior Front-end or Internship opportunities**.
-
----
-
-## 🌐 Links
-
-* 💼 LinkedIn: [https://www.linkedin.com/in/joice-alves-dev0101](https://www.linkedin.com/in/joice-alves-dev0101)
-* 💻 GitHub: [https://github.com/joicealvesdev](https://github.com/joicealvesdev)
-* 🐦 Twitter / X: [https://x.com/joicedev9](https://x.com/joicedev9)
-
----
-
-## ❤️ Credits
-
-Project inspired by **DevLinks** from [Rocketseat](https://www.rocketseat.com.br).
-
-Developed with ❤️ by **Joice Alves** ✨
+O tema claro/escuro é alternado pelo botão no topo e fica salvo no navegador para a próxima visita.
