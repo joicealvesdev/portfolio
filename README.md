@@ -1,8 +1,8 @@
-# Portfólio de Joice Alves
+# Meu portfólio
 
-Portfólio pessoal de Joice Alves, desenvolvedora front-end e estudante de Análise e Desenvolvimento de Sistemas. A página apresenta sua trajetória, tecnologias, projeto em destaque e canais de contato em uma experiência responsiva.
+Eu sou Joice Alves, desenvolvedora front-end e estudante de Análise e Desenvolvimento de Sistemas. Criei este portfólio para apresentar minha trajetória, as tecnologias que utilizo e a forma como gosto de transformar ideias em experiências visuais funcionais e responsivas.
 
-## Tecnologias
+## O que eu utilizo
 
 - React
 - TypeScript
@@ -12,16 +12,16 @@ Portfólio pessoal de Joice Alves, desenvolvedora front-end e estudante de Anál
 
 ## Como executar
 
-É necessário ter Node.js instalado.
+Para executar o projeto localmente, eu preciso ter o Node.js instalado. Depois, uso:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Depois, abra a URL indicada pelo Vite no navegador.
+Em seguida, acesso no navegador a URL indicada pelo Vite.
 
-Para gerar a versão de produção:
+Para gerar a versão de produção, uso:
 
 ```bash
 npm run build
@@ -31,10 +31,14 @@ npm run build
 
 ```text
 src/
-  App.tsx       # Conteúdo e comportamento da página
-  main.tsx      # Entrada da aplicação React
-  styles.css    # Layout, temas e responsividade
-assets/         # Imagens usadas no portfólio
+  App.tsx       # Eu organizo aqui o conteúdo e o comportamento da página
+  main.tsx      # Este arquivo inicia a aplicação React
+  styles.css    # Aqui ficam o layout, os temas e a responsividade
+assets/         # Aqui guardo as imagens e o favicon do portfólio
 ```
 
-O tema claro/escuro é alternado pelo botão no topo e fica salvo no navegador para a próxima visita.
+## Sobre a página
+
+Eu organizei a página em seções de apresentação, tecnologias e contato. Também adicionei um tema claro e escuro, que pode ser alternado pelo botão no topo e fica salvo no navegador para a próxima visita.
+
+O favicon usa as iniciais `JA` e segue a paleta verde do portfólio.
