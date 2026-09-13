@@ -23,7 +23,7 @@ const technologyGroups = [
 const socialLinks = [
   { label: 'GitHub', url: 'https://github.com/joicealvesdev', icon: Code2 },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/in/joice-alves-dev0101', icon: BriefcaseBusiness },
-  { label: 'Instagram', url: 'https://www.instagram.com', icon: Camera },
+  { label: 'Instagram', url: 'https://www.instagram.com/joice.alvesf/', icon: Camera },
   { label: 'YouTube', url: 'https://www.youtube.com/@joice2003', icon: PlaySquare },
 ]
 
